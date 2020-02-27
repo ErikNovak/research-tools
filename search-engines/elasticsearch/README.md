@@ -76,6 +76,25 @@ If the student does not have its own dataset, one is already prepared and availa
 
           Also, do not be afraid of modifying the mapping by consulting with the [elasticsearch mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html) reference. First, start with something simple which will work. Afterwards, add additional components and frequently test if it works.
 
+
+          **HINT:** If you are using the provided `dataset.json` file, you can prepare the documents variable by using the following code.
+
+          ```javascript
+          const dataset = require("./dataset");
+
+          const documents = dataset.map((doc) => ({
+              document_id: doc.uri,
+              title: Object.values(doc.title)[0],
+              date: new Date(doc.eventDate),
+              language: Object.keys(doc.articleCounts)[0],
+              wikipedia: doc.concepts.map((concept) => ({
+                  uri: concept.uri,
+                  label: Object.values(concept.label)[0]
+              }))
+          }));
+          ```
+
+
 4. Modify the file containing the routes responsible for making queries in elasticsearch.
 
     - In the terminal navigate to the repository folder and run
