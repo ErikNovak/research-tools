@@ -3,10 +3,12 @@ This repository contains the various instructions and datasets for using differe
 
 ### Table of Contents
 
-#### Search Engines
+#### CI - Continuous Integration
+[Continuous Integration](./CI/). Tools for making the development process smoother and less buggy.
 
-[Elasticsearch](./search-engines/elasticsearch). A search engine based on the Lucene library.
+#### Dataset Collection Tools
 
+[Event Registry Collector](https://github.com/ErikNovak/event-registry-collector). The python library for collecting news event and article data from [Event Registry](https://eventregistry.org/).
 
 #### Enrichment Tools
 
@@ -14,6 +16,7 @@ This repository contains the various instructions and datasets for using differe
 
 [Document Enrichment Tool](https://github.com/ErikNovak/document-enrichment-tool). This repository contains document enrichment components which can be connected in a "lego-like" fashion.
 
-#### Dataset Collection Tools
+#### Search Engines
 
-[Event Registry Collector](https://github.com/ErikNovak/event-registry-collector). The python library for collecting news event and article data from [Event Registry](https://eventregistry.org/).
+[Elasticsearch](./search-engines/elasticsearch). A search engine based on the Lucene library.
+
