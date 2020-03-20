@@ -1,5 +1,5 @@
 # Research Tools
-This repository contains the various instructions and datasets for learning new skills. The tutorials are usually assocaited with a library, framework, or concept that is new and useful to know.
+This repository contains the various instructions and datasets for using different services and tools. The instructions are usually assocaited with a library, framework, or concept that is new and useful to know.
 
 ### Table of Contents
 
