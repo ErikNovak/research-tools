@@ -20,3 +20,14 @@ This repository contains the various instructions and datasets for using differe
 
 [Elasticsearch](./search-engines/elasticsearch). A search engine based on the Lucene library.
 
+
+### Templates Repositories
+
+#### NodeJS
+
+[Elasticsearch Microservice](https://github.com/ErikNovak/template-nodejs-elasticsearch-microservice). The NodeJS Elasticsearch microservice using [Express](https://expressjs.com/).
+
+#### Python
+
+[Flask](https://github.com/ErikNovak/template-python-flask). A basic implementation of the [Flask](https://flask.palletsprojects.com/en/1.1.x/) microservice.
+
