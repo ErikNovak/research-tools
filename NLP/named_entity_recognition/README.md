@@ -53,3 +53,5 @@ jupyter notebook
 | ------------- | -------------------------------------------------------------------------- |
 | models        | The folder containing the pytorch implementations of various models        |
 | notebooks     | The folder containing the notebooks (used for explaining concepts)         |
+| data          | The folder containing the NER datasets                                     |
+| library       | The folder containing the NER implementation example and visualization f.  |
