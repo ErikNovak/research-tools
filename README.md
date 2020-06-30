@@ -10,6 +10,8 @@ This repository contains the various instructions and datasets for using differe
 
 [Event Registry Collector](https://github.com/ErikNovak/event-registry-collector). The python library for collecting news event and article data from [Event Registry](https://eventregistry.org/).
 
+[Wikipedia Dump Parsing](https://github.com/ErikNovak/wikipedia-dump-parsing). The NodeJS scripts for parsing Wikipedia dumps.
+
 #### Enrichment Tools
 
 [Wikifier](http://wikifier.org/). The semantic annotation service for 100 languages. It annotates parts of text with relevant Wikipedia Concepts (pages). The documentation for the service is available [here](http://wikifier.org/info.html).
