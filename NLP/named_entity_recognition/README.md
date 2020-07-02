@@ -1,5 +1,5 @@
 # Named Entity Recognition
-This repository contains the jupyter notebook examples of training NER models using language models (i.e. ).
+This repository contains the jupyter notebook examples of training NER models using language models (i.e. XLM-Roberta).
 
 ## Prerequisites
 
